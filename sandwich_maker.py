@@ -11,4 +11,6 @@ class SandwichMaker:
         return True
 
     def make_sandwich(self, sandwich_size, order_ingredients):
-        ########
+        for item in order_ingredients:
+            self.machine_resources[item] -= order_ingredients[item] # deduct the resources by what is used to make the sandwich
+        print(f"Here is your {sandwich_size} sandwich. Bon appetit!")
