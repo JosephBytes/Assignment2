@@ -8,8 +8,6 @@ recipes = data.recipes
 sandwich_maker_instance = SandwichMaker(resources)
 cashier_instance = Cashier()
 
-sandwich_maker_instance.mak
-
 
 def main():
 
