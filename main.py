@@ -1,14 +1,14 @@
-import data 
-import cashier 
-import sandwich_maker
+import data
+from cashier import Cashier
+from sandwich_maker import SandwichMaker
 
 # Make an instance of other classes here
-resources = data.resources
+resources = data.recipes
 recipes = data.recipes
-sandwich_maker_instance = 
-cashier_instance = 
+sandwich_maker_instance = SandwichMaker(resources)
+cashier_instance = Cashier()
 
-
+sandwich_maker_instance.mak
 
 
 def main():
